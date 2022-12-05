@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+  }
+  
+  /* Intro */
+  #IntroContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #mainLogo{
+    width: 80px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+  
+  #IntroContainer section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  section h1{
+    font-size: 1.8rem;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  section h1:first-child{
+    margin-top: 70px;
+  }
+  
+  section img{
+    width: 70vw;
+  }
+  
+  section p{
+    font-size: 1rem;
+    text-align: center;
+    line-height:25px;
+    margin-top: 45px;
+  }
+  
